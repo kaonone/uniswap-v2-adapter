@@ -53,7 +53,7 @@ $ NETWORK=kovan yarn run verify YourContractName
 | router | address | The address of the UniswapV2Router02. |
 
 Sets the value for `_router`.
-`_router` value are immutable: they can only be set once during construction
+`_router` value is immutable: they can only be set once during construction
 Returns:
 _No parameters_
 
