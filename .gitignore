@@ -6,3 +6,4 @@ coverage.json
 .infura
 .DS_Store
 build
+yarn.lock

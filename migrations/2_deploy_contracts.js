@@ -1,8 +1,8 @@
-const ConvertLib = artifacts.require("ConvertLib");
-const MetaCoin = artifacts.require("MetaCoin");
+const UniswapV2Router02 = artifacts.require("UniswapV2Router02");
+const UniswapV2Adapter = artifacts.require("UniswapV2Adapter");
 
-module.exports = function (deployer) {
-  deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, MetaCoin);
-  deployer.deploy(MetaCoin);
+module.exports = async (deployer, network) => {
+  if (network === "test" || network === "coverage") return;
+  const uniswapV2Router02Instance = await deployer.deploy(UniswapV2Router02);
+  await deployer.deploy(UniswapV2Adapter, uniswapV2Router02Instance.address);
 };
