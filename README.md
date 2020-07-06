@@ -1,6 +1,6 @@
 # UniswapV2 Adapter
 
-[![Build Status](https://travis-ci.org/akropolisio/uniswap-v2-adapter.svg?branch=develop)](https://travis-ci.org/akropolisio/uniswap-v2-adapter)
+[![Build Status](https://travis-ci.org/akropolisio/uniswap-v2-adapter.svg?branch=master)](https://travis-ci.org/akropolisio/uniswap-v2-adapter)
 
 ## Developer Tools 🛠️
 
