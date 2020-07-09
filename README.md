@@ -1,7 +1,7 @@
 # UniswapV2 Adapter
 
-[![Build Status](https://travis-ci.org/akropolisio/uniswap-v2-adapter.svg?branch=master)](https://travis-ci.org/akropolisio/uniswap-v2-adapter)
-[![codecov](https://codecov.io/gh/akropolisio/uniswap-v2-adapter/branch/master/graph/badge.svg)](https://codecov.io/gh/ilyakmet/uniswap-v2-adapter)
+[![Build Status](https://travis-ci.com/akropolisio/uniswap-v2-adapter.svg?branch=master)](https://travis-ci.com/akropolisio/uniswap-v2-adapter)
+[![codecov](https://codecov.io/gh/akropolisio/uniswap-v2-adapter/branch/master/graph/badge.svg)](https://codecov.io/gh/akropolisio/uniswap-v2-adapter)
 
 ## Developer Tools 🛠️
 
